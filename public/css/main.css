@@ -1074,3 +1074,7 @@ html {
     margin-left: 91.666667%; } }
 
 /*# sourceMappingURL=bootstrap-grid.css.map */
+.header-bg {
+  background: url("/images/bg1.jpg") no-repeat top center;
+  width: 100%;
+  min-height: 750px; }
