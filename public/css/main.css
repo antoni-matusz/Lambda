@@ -1079,7 +1079,7 @@ html {
   width: 100%;
   min-height: 750px; }
 
-.logo {
+img {
   width: 128px;
   height: 92px;
   margin-top: 8px;
@@ -1096,6 +1096,9 @@ ul {
     font-size: 21px;
     font-weight: bold;
     color: #ffffff; }
+    ul li:hover {
+      color: #000000;
+      cursor: pointer; }
 
 h1 {
   opacity: 0.92;
@@ -1127,8 +1130,17 @@ button {
     opacity: 0.8;
     background-color: #000000;
     border: solid 1px #000000;
-    color: #ffffff; }
+    color: #ffffff;
+    cursor: pointer; }
 
 i {
   font-size: 21px;
-  color: #dab33e; }
+  color: #000000;
+  margin-top: 50px;
+  margin-right: 20px; }
+  i:hover {
+    color: #ffffff;
+    cursor: pointer; }
+
+.book-button {
+  float: right; }
