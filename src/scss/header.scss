@@ -5,7 +5,7 @@
     width: 100%;
     min-height: 750px;
 }
-.logo {
+img {
     width: 128px;
     height: 92px;
     margin-top: 8px;
@@ -21,7 +21,11 @@ ul {
         font-family: $fGBB;
         font-size: 21px;
         font-weight: bold;
-        color: #ffffff;  
+        color: #ffffff; 
+        &:hover{
+            color: #000000;    
+            cursor: pointer;
+            } 
     }
 }
 h1 {
@@ -55,9 +59,19 @@ text-transform: uppercase;
     background-color: #000000;
     border: solid 1px #000000;
     color: #ffffff;
+    cursor: pointer
 }
 }
 i {
     font-size: 21px;
-    color: #dab33e;
+    color: #000000; 
+    margin-top: 50px;
+    margin-right: 20px;
+    &:hover{
+    color: #ffffff;    
+    cursor: pointer;
+    }
   }
+.book-button {
+    float: right;
+}  
