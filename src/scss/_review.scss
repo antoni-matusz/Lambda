@@ -1,0 +1,47 @@
+@import 'global';
+
+.review-bg {
+    background: url('/images/bg2.jpg') repeat top center;
+    min-height: 710px;
+
+    .text-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    img[alt='devider'] {
+        margin-top: 15px;
+        margin-bottom: 32px;
+    }
+
+    h2 {
+        font-family: $fYO;
+        font-size: 36px;
+        line-height: 0.67;
+        text-align: center;
+        color: #cc9900;
+        margin-top: 106px;
+        @media (max-width: 768px) {
+            line-height: 1.2;
+        }
+    }
+    p {
+        font-family: $fL;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #4c4c4c;
+    }
+    img[alt='cook'] {
+        margin-top: 52px;
+    }
+    img[alt='plate'] {
+        margin-top: 55px;
+    }   
+
+}

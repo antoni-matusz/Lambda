@@ -13,7 +13,7 @@ class Review extends Component {
                     </p>
                     <img src='/images/img-1.png' alt='cook'/>
                 </div>
-                <div className='col-md-6'>
+                <div className='col-md-6 text-box'>
                     <img src='/images/img-2.png' alt='plate'/>
                 </div>
            

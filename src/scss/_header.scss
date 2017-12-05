@@ -1,0 +1,121 @@
+@import 'global';
+
+.header-bg {
+    background: url('/images/bg1.jpg') no-repeat top center;
+    width: 100%;
+    min-height: 750px;
+    @media (max-width: 768px) {
+        background-size: cover;
+    }
+    .mobile{
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            max-width: 100%;
+            align-items: center;
+        }
+    }
+
+    .logo {
+        width: 128px;
+        height: 92px;
+        margin-top: 8px;
+        margin-right: 221px;
+        margin-bottom: 139px;
+        @media (max-width: 768px) {
+            margin-right: 0;
+            margin-bottom: 8px;
+            height: 100%;
+            width: 156px;
+
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 51px;
+        margin-bottom: 167px;
+        @media (max-width: 768px) {
+            margin-bottom: 25px;
+            width: 100%;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+        li {
+            font-family: $fGBB;
+            font-size: 21px;
+            font-weight: bold;
+            color: #ffffff; 
+            &:hover{
+                color: #000000;    
+                cursor: pointer;
+            } 
+            @media (max-width: 768px) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+    h1 {
+        opacity: 0.92;
+        font-family: $fYO;
+        font-size: 90px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.92);
+        text-shadow: 0.5px 0.9px 2px rgba(1, 1, 1, 0.64);
+        margin-bottom: 34px;
+        @media (max-width: 768px) {
+            font-size: 35px;
+        }
+    }
+    .devider {
+        max-width: 232px;
+        max-height: 43px;
+        margin: 0 auto;
+        margin-bottom: 34px;
+        display: block;
+    }
+    button {
+        width: 228px;
+        height: 57px;
+        opacity: 0.7;
+        background-color: #ffffff;
+        border: solid 1px #ffffff;
+        font-family: $fL;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+        text-transform: uppercase;
+        &:hover {
+            opacity: 0.8;
+            background-color: #000000;
+            border: solid 1px #000000;
+            color: #ffffff;
+            cursor: pointer
+        }
+        @media (max-width: 768px) {
+            margin-bottom: 25px;
+        }
+    }
+    i {
+        font-size: 21px;
+        color: #000000; 
+        margin-top: 50px;
+        margin-right: 20px;
+        &:hover{
+        color: #ffffff;    
+        cursor: pointer;
+        }
+    }
+    .icons-box {
+        @media (max-width: 768px) {
+            flex-direction: row;
+            margin-bottom: 25px;
+            justify-content: center;
+        }
+    }
+    .book-button {
+        float: right;
+    }
+}
