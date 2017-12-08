@@ -1,0 +1,60 @@
+@import 'global';
+
+.ingredients-bg {
+    background: url('/images/bg3.jpg') no-repeat top center;
+    width: 100%;
+    min-height: 758px;
+    @media (max-width: 768px) {
+        background-size: cover;
+    }
+    h3 {
+        font-family: $fYO;
+        font-size: 36px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 83px;
+        @media (max-width: 768px) {
+            margin-top: 30px;
+        }
+    }
+    img[alt='devider'] {
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-family: $fL;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 76px;
+        @media (max-width: 768px) {
+            background-size: cover;
+        }
+    }
+    img[alt='ingredients'] {
+        margin-bottom: 83px;
+        @media (max-width: 320px) {
+            max-width:100%;
+        }
+    }
+    .row {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .description-box {
+        max-width: 50%;
+        opacity: 0.67;
+        background-color: #000000;
+        border: solid 0.1px #fbf7c0;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        @media (max-width: 768px) {
+            min-width: 100%;
+        }
+    } 
+}
+          
